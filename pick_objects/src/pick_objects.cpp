@@ -23,7 +23,7 @@ int main(int argc, char** argv){
   // set up the frame parameters
   goal.target_pose.header.frame_id = "map";
   goal.target_pose.header.stamp = ros::Time::now();
-  float targets[2][3] = { {-3.0, 0.28, 1.5707}, {0.08, 1.2, 1.5707}  };
+  float targets[2][3] = {{-3.0, 0.28, 1.5707}, {0.08, 1.2, 1.5707}};
   bool reached = false;
 
 
